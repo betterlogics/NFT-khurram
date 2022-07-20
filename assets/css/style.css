@@ -1,7 +1,9 @@
 .nav-link:hover{
 color: rgb(247, 106, 11)!important;
 }
-
+.content-area h4:hover{
+   color: rgb(247, 106, 11)!important;
+}
   .three-d-container{
   margin:30px auto;
   width:300px;
