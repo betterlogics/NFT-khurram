@@ -13,19 +13,7 @@ color: rgb(247, 106, 11)!important;
 }
 /* three d purse slider */
 
-* {
-   margin: 0;
-   padding: 0;
-
- }
- 
- /* body {
-   padding: 20px;
-   background: #eee;
-   user-select: none;
- } */
- 
- [type=radio] {
+[type=radio] {
    display: none;
  }
  
@@ -82,16 +70,11 @@ color: rgb(247, 106, 11)!important;
    transform: translate3d(30%,0,-200px);
  }
  
- #slide1 { background-image:url(/assets/img/1140.png) no-repeat ;width:70%;}
- #slide1 { background:url(/assets/img/1140.png) no-repeat center }
- #slide2 { background: url(/assets/img/166.png) no-repeat  center }
- #slide3 { background: url(/assets/img/1847.png) no-repeat center }
- #slide4 { background: url(/assets/img/2132.png) no-repeat center}
- #slide5 { background: url(/assets/img/275.png) no-repeat  center}
- #slide6 { background: url(/assets/img/275.png) no-repeat  center}
- #slide7 { background: url(/assets/img/275.png) no-repeat  center}
- #slide8 { background: url(/assets/img/275.png) no-repeat  center}
- 
+ #slide1 { background-image:url(/assets/img/39.png)  }
+ #slide2 { background-image:url(/assets/img/90.png)  }
+ #slide3 { background-image:url(/assets/img/39.png)  }
+ #slide4 { background-image:url(/assets/img/99.png)  }
+ #slide5 { background-image:url(/assets/img/231.png)}
 
 /* three d cube slider  */
   .three-d-container{
