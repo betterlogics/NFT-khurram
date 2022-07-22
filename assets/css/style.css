@@ -21,7 +21,7 @@ color: rgb(247, 106, 11)!important;
    perspective: 1400px;
    transform-style: preserve-3d;
  }
- input[type=radio] {
+ #slider input[type=radio] {
    position: relative;
    top: 108%;
    left: 50%;
