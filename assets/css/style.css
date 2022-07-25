@@ -112,6 +112,7 @@ color: rgb(247, 106, 11)!important;
     #s5:checked ~ #slide1 {
   box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
   transform: translate3d(20%, 0, -100px);
+  transition: transform 400ms ease;
 }
 #s1:checked ~ #slide3,
  #s2:checked ~ #slide4,
@@ -120,6 +121,7 @@ color: rgb(247, 106, 11)!important;
     #s5:checked ~ #slide2 {
   box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
   transform: translate3d(40%, 0, -250px);
+  transition: transform 400ms ease;
 }
 #s1:checked ~ #slide5,
  #s2:checked ~ #slide1,
@@ -128,6 +130,7 @@ color: rgb(247, 106, 11)!important;
     #s5:checked ~ #slide4 {
   box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
   transform: translate3d(-20%, 0, -100px);
+  transition: transform 400ms ease;
 }
 #s1:checked ~ #slide4,
  #s2:checked ~ #slide5,
@@ -136,6 +139,7 @@ color: rgb(247, 106, 11)!important;
     #s5:checked ~ #slide3 {
   box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
   transform: translate3d(-40%, 0, -250px);
+  transition: transform 400ms ease;
 }
 
 /* three d cube slider  */
@@ -187,11 +191,11 @@ color: rgb(247, 106, 11)!important;
   margin:0;
   }
   .three-d-item:nth-child(1){
-  -webkit-transform:rotateY(   0deg ) translateZ( 150px );
-     -moz-transform:rotateY(   0deg ) translateZ( 150px );
-      -ms-transform:rotateY(   0deg ) translateZ( 150px );
-       -o-transform:rotateY(   0deg ) translateZ( 150px );
-          transform:rotateY(   0deg ) translateZ( 150px );
+  -webkit-transform:rotateY(0deg ) translateZ( 150px );
+     -moz-transform:rotateY(0deg ) translateZ( 150px );
+      -ms-transform:rotateY(0deg ) translateZ( 150px );
+       -o-transform:rotateY(0deg ) translateZ( 150px );
+          transform:rotateY(0deg ) translateZ( 150px );
   }
   .three-d-item:nth-child(2){
   -webkit-transform:rotateX( 180deg ) translateZ( 150px );
