@@ -11,10 +11,9 @@ color: rgb(247, 106, 11)!important;
    flex-direction: column;
    align-items: center;
   }
-  .footer h2{
-   
-  }
+ 
   .footer ul {
+   margin-left: -45px;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -34,6 +33,7 @@ color: rgb(247, 106, 11)!important;
    border-radius: 0 0 50px 0 !important;
 }
 .icons-hover {
+   
    border: 1px solid #fd562a;
    border-radius: 7px;
    color: #fd562a;
