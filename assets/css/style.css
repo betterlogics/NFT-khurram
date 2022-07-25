@@ -4,7 +4,17 @@ color: rgb(247, 106, 11)!important;
 .content-area h4:hover{
    color: rgb(247, 106, 11)!important;
 }
+
 .footer{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+  }
+  .footer h2{
+   
+  }
+  .footer ul {
    display: flex;
    justify-content: center;
    flex-direction: column;
