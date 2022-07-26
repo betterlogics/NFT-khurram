@@ -56,6 +56,51 @@
             text-transform: uppercase;
             letter-spacing: 4.2px;
         }
+
+        .mint img {
+            width: 80%;
+            animation: mint 5s infinite;
+            animation-duration: alternate;
+        }
+
+        @keyframes mint {
+            0% {
+                transform: translatey(0);
+            }
+
+            50% {
+                transform: translatey(-10%);
+            }
+
+            100% {
+                transform: translatey(0);
+            }
+
+
+        }
+
+        .quantity input {
+            border-radius: 10px !important;
+            outline: none;
+            border: none;
+            padding: 10px 0;
+            width: 100px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #fff;
+            margin: 0 10px;
+            background: transparent;
+            box-shadow: inset -2px -2px 2px hsl(0deg 0% 100% / 20%), inset 2px 5px 15px rgb(0 0 0 / 50%);
+        }
+
+        /* benefits  */
+        .rounded {
+            border-radius: 1.25rem !important;
+        }
+
+        .border-danger {
+            border-color: #dc354599 !important;
+        }
     </style>
 
 </head>
@@ -292,11 +337,11 @@
                 </div>
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="/assets/img/loin.png" width="70%" alt="">
+                        <img src="/assets/img/loin.png" class="mint" width="70%" alt="">
                     </div>
                     <div class="col-md-7 justify-content-end">
                         <div class="quantity">
-                            <input class="count-form mt-3 bg-dark text-center text-white" type="text" value="1">
+                            <input class="count-form mt-3  text-center text-white" type="text" value="1">
                         </div>
                         <div class="quanity-form">
 
