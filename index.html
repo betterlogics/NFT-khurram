@@ -12,7 +12,43 @@
     <!-- Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
     <title>nft.wheswap</title>
+
+    <style>
+        /* body {
+            position: relative;
+            height: 100%;
+        } */
+
+        /* body {
+            background: rgb(239, 3, 3) !important;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        } */
+
+        .swiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+        }
+    </style>
 
 </head>
 
@@ -415,8 +451,42 @@
                     <h5 class="text-danger">NEW EXPLORE</h5>
                     <h2>Explore All</h2>
                 </div>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/assets/img/39.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/1140.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/166.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/1847.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/99.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/2132.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/231.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/275.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/assets/img/289.png" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
                 <!-- slider section  -->
-                <div id="slider">
+                <!-- <div id="slider">
                     <input type="radio" name="slider" id="s1" checked>
                     <input type="radio" name="slider" id="s2">
                     <input type="radio" name="slider" id="s3">
@@ -427,7 +497,7 @@
                     <label for="s3" id="slide3"><img src="/assets/img/99.png" alt=""></label>
                     <label for="s4" id="slide4"><img src="/assets/img/2132.png" alt=""></label>
                     <label for="s5" id="slide5"><img src="/assets/img/231.png" alt=""></label>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -524,7 +594,8 @@
                     <div class="footer mb-50">
                         <h2>About Us</h2>
                         <div class="info mt-30">
-                            <p>Metaverse is a wide new world with endless possibilities and new experiences, and our
+                            <p>Metaverse is a wide new world with endless possibilities and new experiences,
+                                and our
                                 WHE
                                 Club is the key to unlocking this world.</p>
                         </div>
@@ -539,7 +610,34 @@
             </div>
         </div>
     </div>
-    <!-- bootstrap js cdn 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: "auto",
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <!-- bootstrap js cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

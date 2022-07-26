@@ -49,7 +49,7 @@ color: rgb(247, 106, 11)!important;
 }
 
 /* slider  */
-#slider {
+/* #slider {
    position: relative;
    width: 50%;
    height: 32vw;
@@ -140,7 +140,7 @@ color: rgb(247, 106, 11)!important;
   box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
   transform: translate3d(-40%, 0, -250px);
   transition: transform 400ms ease;
-}
+} */
 
 /* three d cube slider  */
   .three-d-container{
